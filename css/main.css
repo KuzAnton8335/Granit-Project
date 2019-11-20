@@ -1,0 +1,208 @@
+@charset "UTF-8";
+/* Указываем box sizing */
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* Убираем внутренние отступы */
+ul[class],
+ol[class] {
+  padding: 0; }
+
+/* Убираем внешние отступы */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0; }
+
+/* Выставляем основные настройки по-умолчанию для body */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  margin: 0; }
+
+/* Удаляем стандартную стилизацию для всех ul и il, у которых есть атрибут class*/
+ul[class],
+ol[class] {
+  list-style: none; }
+
+/* Элементы a, у которых нет класса, сбрасываем до дефолтных стилей */
+a:not([class]) {
+  text-decoration-skip-ink: auto; }
+
+/* Упрощаем работу с изображениями */
+img {
+  max-width: 100%;
+  display: block; }
+
+/* Наследуем шрифты для инпутов и кнопок */
+input,
+button,
+textarea,
+select {
+  font: inherit; }
+
+@font-face {
+  font-family: "fontaafeb23794c0546aa78e6d11e49ef908";
+  src: url("https://nomail.com.ua/files/eot/aafeb23794c0546aa78e6d11e49ef908.eot?#iefix") format("embedded-opentype"), url("https://nomail.com.ua/files/woff/aafeb23794c0546aa78e6d11e49ef908.woff") format("woff"), url("https://nomail.com.ua/files/woff2/aafeb23794c0546aa78e6d11e49ef908.woff2") format("woff2"); }
+
+@font-face {
+  font-family: "GothamPro";
+  src: local("GothamPro"), url("https://nomail.com.ua/files/woff/aafeb23794c0546aa78e6d11e49ef908.woff") format("woff"); }
+
+/*````````````````````````````````` noMail.com.ua - Каталог шрифтов ```````````````````````````````````````*/
+#gothampro {
+  font-family: "GothamPro"; }
+
+.fontaafeb23794c0546aa78e6d11e49ef908 {
+  font-family: "fontaafeb23794c0546aa78e6d11e49ef908"; }
+
+@font-face {
+  font-family: 'fontdd3d9ca53a246950706e94726bb1403e';
+  src: url("https://nomail.com.ua/files/eot/dd3d9ca53a246950706e94726bb1403e.eot?#iefix") format("embedded-opentype"), url("https://nomail.com.ua/files/woff/dd3d9ca53a246950706e94726bb1403e.woff") format("woff"), url("https://nomail.com.ua/files/woff2/dd3d9ca53a246950706e94726bb1403e.woff2") format("woff2"); }
+
+@font-face {
+  font-family: 'GothamPro-Medium';
+  src: local("GothamPro-Medium"), url("https://nomail.com.ua/files/woff/dd3d9ca53a246950706e94726bb1403e.woff") format("woff"); }
+
+/*````````````````````````````````` noMail.com.ua - Каталог шрифтов ```````````````````````````````````````*/
+#gothampromedium {
+  font-family: 'GothamPro-Medium'; }
+
+.fontdd3d9ca53a246950706e94726bb1403e {
+  font-family: 'fontdd3d9ca53a246950706e94726bb1403e'; }
+
+.container {
+  width: 945px;
+  margin-left: auto;
+  margin-right: auto; }
+
+.logo-panel {
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-top: 35px; }
+  .logo-panel img {
+    width: 38px;
+    height: 40px; }
+
+.logo-panel__svg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.logo-panel__text {
+  padding-left: 18px; }
+
+.panel__text_logo {
+  font-size: 20px;
+  font-family: 'GothamPro-Medium',sans-serif;
+  color: #373737;
+  font-weight: 800;
+  text-transform: uppercase;
+  line-height: 1.1;
+  text-align: left; }
+
+.panel__text_text {
+  font-size: 11px;
+  font-family: "GothamPro",sans-serif;
+  color: #969696;
+  line-height: 2;
+  text-align: left; }
+
+.logo-panel__phone {
+  position: absolute;
+  right: 410px; }
+
+.panel__phone {
+  font-size: 18px;
+  font-family: 'GothamPro-Medium',sans-serif;
+  color: #333333;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.222;
+  text-align: right; }
+
+.logo-panel__btn {
+  border-width: 2px;
+  border-color: #333333;
+  border-style: solid;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  text-decoration: none;
+  font-size: 12px;
+  font-family: 'GothamPro-Medium',sans-serif;
+  color: #333333;
+  line-height: 1.833;
+  text-align: right; }
+
+.logo-panel__btn:hover {
+  background-color: #000;
+  color: #fff;
+  font-size: 12px;
+  font-family: 'GothamPro-Medium',sans-serif;
+  line-height: 1.833;
+  text-align: right; }
+
+.header_nav__banner {
+  height: 550px;
+  width: 100%;
+  background-color: #303030;
+  background: url("../img/big-banner.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 52px;
+  position: relative; }
+
+.header-nav__panel {
+  width: 942px;
+  height: 65px;
+  background: #ffcc00;
+  padding-left: 60px;
+  padding-right: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  position: absolute;
+  top: -32px; }
+
+.header-nav__link {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 900;
+  font-family: 'GothamPro-Medium',sans-serif;
+  color: black;
+  line-height: 1.571;
+  text-align: center; }
+
+.header-nav__link:hover {
+  text-decoration: underline; }
