@@ -117,7 +117,7 @@ select {
 
 .panel__text_logo {
   font-size: 20px;
-  font-family: 'GothamPro-Medium',sans-serif;
+  font-family: 'GothamPro-Medium', sans-serif;
   color: #373737;
   font-weight: 800;
   text-transform: uppercase;
@@ -126,18 +126,18 @@ select {
 
 .panel__text_text {
   font-size: 11px;
-  font-family: "GothamPro",sans-serif;
+  font-family: "GothamPro", sans-serif;
   color: #969696;
   line-height: 2;
   text-align: left; }
 
 .logo-panel__phone {
   position: absolute;
-  right: 410px; }
+  right: 480px; }
 
 .panel__phone {
   font-size: 18px;
-  font-family: 'GothamPro-Medium',sans-serif;
+  font-family: 'GothamPro-Medium', sans-serif;
   color: #333333;
   font-weight: bold;
   text-transform: uppercase;
@@ -154,16 +154,20 @@ select {
   padding-bottom: 9px;
   text-decoration: none;
   font-size: 12px;
-  font-family: 'GothamPro-Medium',sans-serif;
+  font-family: 'GothamPro-Medium', sans-serif;
   color: #333333;
   line-height: 1.833;
-  text-align: right; }
+  text-align: right;
+  -webkit-transition: background-color .2s linear;
+  -o-transition: background-color .2s linear;
+  transition: background-color .2s linear;
+  margin-bottom: 13px; }
 
 .logo-panel__btn:hover {
   background-color: #000;
   color: #fff;
   font-size: 12px;
-  font-family: 'GothamPro-Medium',sans-serif;
+  font-family: 'GothamPro-Medium', sans-serif;
   line-height: 1.833;
   text-align: right; }
 
@@ -199,10 +203,76 @@ select {
   text-decoration: none;
   font-size: 14px;
   font-weight: 900;
-  font-family: 'GothamPro-Medium',sans-serif;
+  font-family: 'GothamPro-Medium', sans-serif;
   color: black;
   line-height: 1.571;
   text-align: center; }
 
 .header-nav__link:hover {
   text-decoration: underline; }
+
+.header-text {
+  direction: block;
+  height: 250px;
+  text-align: left;
+  padding-top: 140px; }
+
+.header-title {
+  color: #fff;
+  font-size: 36px;
+  font-family: 'GothamPro-Medium', sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: 1.2; }
+
+.header-subtitle {
+  padding-top: 45px;
+  font-size: 14px;
+  font-family: "GothamPro", sans-serif;
+  color: white;
+  line-height: 1.571;
+  text-align: left; }
+
+.header-banner__link {
+  margin-top: 64px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .header-banner__link p {
+    padding-top: 18px;
+    font-size: 12px;
+    font-family: "GothamPro", sans-serif;
+    color: white;
+    line-height: 1.833; }
+  .header-banner__link a {
+    padding-top: 18px;
+    padding-left: 15px;
+    font-size: 12px;
+    font-family: "GothamPro", sans-serif;
+    color: white;
+    line-height: 1.833;
+    -webkit-transition: background-color .2s linear;
+    -o-transition: background-color .2s linear;
+    transition: background-color .2s linear; }
+  .header-banner__link a:hover {
+    text-decoration: none; }
+
+.banner-link__btn {
+  background-color: #ffd200;
+  width: 202px;
+  height: 52px;
+  border: none;
+  outline: 0;
+  cursor: pointer;
+  font-size: 12px;
+  font-family: 'GothamPro-Medium', sans-serif;
+  color: #0d0d0d;
+  line-height: 1.833;
+  font-weight: 900;
+  -webkit-transition: background-color .2s linear;
+  -o-transition: background-color .2s linear;
+  transition: background-color .2s linear;
+  margin-right: 34px; }
+
+.banner-link__btn:hover {
+  background-color: #ffffcd; }
