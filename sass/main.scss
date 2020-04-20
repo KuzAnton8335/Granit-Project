@@ -390,11 +390,115 @@ select {
 	height: 60px;
 	padding-left: 30px;
 	padding-right: 30px;
-	font-family: "GothamPro",
-		sans-serif;
-	font-size: 13px;
-	font-weight: 300;
-	color: rgb(98, 98, 98);
+
+	p {
+		font-family: "GothamPro",
+			sans-serif;
+		font-size: 13px;
+		font-weight: 300;
+		color: rgb(98, 98, 98);
+		line-height: 1.2;
+		text-align: center;
+	}
+}
+
+.product-cards__cents {
+	margin-top: 32px;
+	margin-bottom: 32px;
+	font-size: 16px;
+	font-family: "Gotham Pro";
+	color: rgb(15, 15, 15);
 	line-height: 1.2;
 	text-align: center;
+}
+
+.product-cards__link {
+	background-color: rgb(255, 210, 0);
+	padding: 20px 57px;
+	margin-left: 60px;
+	margin-bottom: 35px;
+	font-size: 12px;
+	font-family: "Gotham Pro";
+	color: rgb(13, 13, 13);
+	line-height: 1.833;
+	text-decoration: none;
+	transition-property: background-color;
+	transition-duration: .8s;
+
+	&:hover {
+		background-color: rgb(255, 255, 205);
+	}
+}
+
+.Our-advantages {
+	background: #f4f4f4;
+	min-height: 490px;
+
+	&__big-title {
+		padding-top: 81px;
+
+		h2 {
+			font-size: 20px;
+			font-family: "Gotham Pro";
+			color: rgb(41, 41, 41);
+			font-weight: bold;
+			text-transform: uppercase;
+			line-height: 1.2;
+			text-align: center;
+		}
+	}
+}
+
+.Our-advantages__row {
+	margin-top: 41px;
+	display: flex;
+	justify-content: space-between;
+
+
+
+	.Our-advantages__item {
+		width: 301px;
+		height: 254px;
+		border: 2px solid #fff;
+		cursor: pointer;
+		transition-property: background-color;
+		transition-duration: .8s;
+
+		&:hover {
+			background-color: #fff;
+		}
+
+		.Our-advantages__img {
+			margin-top: 40px;
+			margin-left: 123px;
+			margin-bottom: 45px;
+		}
+	}
+
+	.Our-advantages__title {
+		text-align: center;
+		padding-bottom: 24px;
+
+		h3 {
+			font-size: 15px;
+			font-family: "Gotham Pro";
+			color: rgb(41, 41, 41);
+			line-height: 1.2;
+		}
+	}
+
+	.Our-advantages__text {
+		width: 238px;
+		text-align: center;
+		margin-left: 30px;
+		margin-bottom: 42px;
+
+		p {
+			font-size: 12px;
+			font-family: "Gotham Pro";
+			color: rgb(41, 41, 41);
+			line-height: 1.5;
+
+		}
+	}
 }

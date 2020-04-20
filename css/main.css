@@ -332,10 +332,97 @@ select {
   width: 280px;
   height: 60px;
   padding-left: 30px;
-  padding-right: 30px;
-  font-family: "GothamPro", sans-serif;
-  font-size: 13px;
-  font-weight: 300;
-  color: #626262;
+  padding-right: 30px; }
+  .product-cards__text p {
+    font-family: "GothamPro", sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    color: #626262;
+    line-height: 1.2;
+    text-align: center; }
+
+.product-cards__cents {
+  margin-top: 32px;
+  margin-bottom: 32px;
+  font-size: 16px;
+  font-family: "Gotham Pro";
+  color: #0f0f0f;
   line-height: 1.2;
   text-align: center; }
+
+.product-cards__link {
+  background-color: #ffd200;
+  padding: 20px 57px;
+  margin-left: 60px;
+  margin-bottom: 35px;
+  font-size: 12px;
+  font-family: "Gotham Pro";
+  color: #0d0d0d;
+  line-height: 1.833;
+  text-decoration: none;
+  -webkit-transition-property: background-color;
+  -o-transition-property: background-color;
+  transition-property: background-color;
+  -webkit-transition-duration: .8s;
+  -o-transition-duration: .8s;
+  transition-duration: .8s; }
+  .product-cards__link:hover {
+    background-color: #ffffcd; }
+
+.Our-advantages {
+  background: #f4f4f4;
+  min-height: 490px; }
+  .Our-advantages__big-title {
+    padding-top: 81px; }
+    .Our-advantages__big-title h2 {
+      font-size: 20px;
+      font-family: "Gotham Pro";
+      color: #292929;
+      font-weight: bold;
+      text-transform: uppercase;
+      line-height: 1.2;
+      text-align: center; }
+
+.Our-advantages__row {
+  margin-top: 41px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+  .Our-advantages__row .Our-advantages__item {
+    width: 301px;
+    height: 254px;
+    border: 2px solid #fff;
+    cursor: pointer;
+    -webkit-transition-property: background-color;
+    -o-transition-property: background-color;
+    transition-property: background-color;
+    -webkit-transition-duration: .8s;
+    -o-transition-duration: .8s;
+    transition-duration: .8s; }
+    .Our-advantages__row .Our-advantages__item:hover {
+      background-color: #fff; }
+    .Our-advantages__row .Our-advantages__item .Our-advantages__img {
+      margin-top: 40px;
+      margin-left: 123px;
+      margin-bottom: 45px; }
+  .Our-advantages__row .Our-advantages__title {
+    text-align: center;
+    padding-bottom: 24px; }
+    .Our-advantages__row .Our-advantages__title h3 {
+      font-size: 15px;
+      font-family: "Gotham Pro";
+      color: #292929;
+      line-height: 1.2; }
+  .Our-advantages__row .Our-advantages__text {
+    width: 238px;
+    text-align: center;
+    margin-left: 30px;
+    margin-bottom: 42px; }
+    .Our-advantages__row .Our-advantages__text p {
+      font-size: 12px;
+      font-family: "Gotham Pro";
+      color: #292929;
+      line-height: 1.5; }
