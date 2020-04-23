@@ -423,6 +423,135 @@ select {
     margin-bottom: 42px; }
     .Our-advantages__row .Our-advantages__text p {
       font-size: 12px;
-      font-family: "Gotham Pro";
+      font-family: "Gotham Pro", sans-serif;
       color: #292929;
       line-height: 1.5; }
+
+.Popular-goods {
+  background-color: #fff;
+  min-height: 590px; }
+
+.Popular-goods__big-title {
+  padding-top: 80px;
+  padding-bottom: 60px; }
+  .Popular-goods__big-title h2 {
+    text-align: center;
+    color: #292929;
+    font-family: "Gotham Pro", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase; }
+
+.Popular-goods__cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+  .Popular-goods__cards .Popular-goods__item {
+    max-width: 220px;
+    min-height: 355px;
+    border: 2px solid #f6f6f6;
+    background-color: #ffffff; }
+    .Popular-goods__cards .Popular-goods__item .Popular-goods__img {
+      margin: 20px 20px;
+      cursor: pointer; }
+    .Popular-goods__cards .Popular-goods__item .Popular-goods__img-stock {
+      margin: 20px 20px;
+      cursor: pointer;
+      position: relative; }
+      .Popular-goods__cards .Popular-goods__item .Popular-goods__img-stock .stock-description {
+        display: none;
+        width: 55px;
+        height: 23px;
+        background-color: #ff0000;
+        color: #fff;
+        font-family: "Gotham Pro", sans-serif;
+        font-size: 10px;
+        font-weight: 500;
+        padding: 7px 8px;
+        position: absolute;
+        top: 18px;
+        left: 17px;
+        -webkit-transition: all .8s ease;
+        -o-transition: all .8s ease;
+        transition: all .8s ease; }
+    .Popular-goods__cards .Popular-goods__item .Popular-goods__img-stock:hover .stock-description {
+      display: block; }
+    .Popular-goods__cards .Popular-goods__item .Popular-goods__title {
+      padding-top: 22px;
+      padding-left: 18px;
+      padding-bottom: 24px; }
+      .Popular-goods__cards .Popular-goods__item .Popular-goods__title h3 {
+        color: #292929;
+        font-family: "Gotham Pro", sans-serif;
+        font-size: 13px;
+        font-weight: 400;
+        text-decoration: underline; }
+    .Popular-goods__cards .Popular-goods__item .Popular-goods__text {
+      text-align: center; }
+      .Popular-goods__cards .Popular-goods__item .Popular-goods__text .small-cent {
+        font-family: "Gotham Pro", sans-serif;
+        color: #979797;
+        font-size: 10px;
+        font-weight: 400; }
+        .Popular-goods__cards .Popular-goods__item .Popular-goods__text .small-cent span {
+          padding-left: 12px;
+          color: #ff0000;
+          font-family: "Gotham Pro", sans-serif;
+          font-size: 16px;
+          font-weight: 500;
+          text-decoration: none; }
+      .Popular-goods__cards .Popular-goods__item .Popular-goods__text .big-cent {
+        color: #000000;
+        font-family: "Gotham Pro", sans-serif;
+        font-size: 16px;
+        font-weight: 500; }
+    .Popular-goods__cards .Popular-goods__item .Popular-goods__links {
+      margin-top: 25px; }
+      .Popular-goods__cards .Popular-goods__item .Popular-goods__links a {
+        padding: 20px 67px;
+        background-color: #ffd200;
+        text-decoration: none;
+        color: #0d0d0d;
+        font-family: "Gotham Pro", sans-serif;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 22px;
+        -webkit-transition-property: background-color;
+        -o-transition-property: background-color;
+        transition-property: background-color;
+        -webkit-transition-duration: .8s;
+        -o-transition-duration: .8s;
+        transition-duration: .8s; }
+      .Popular-goods__cards .Popular-goods__item .Popular-goods__links a:hover {
+        background-color: #ffffcd; }
+
+.Our-services {
+  min-height: 490px;
+  background-color: #f4f4f4; }
+  .Our-services .Our-services__big-title {
+    padding-top: 80px;
+    text-align: center;
+    padding-bottom: 63px; }
+    .Our-services .Our-services__big-title h2 {
+      color: #292929;
+      font-family: "Gotham Pro", sans-serif;
+      font-size: 20px;
+      font-weight: 700;
+      text-transform: uppercase; }
+  .Our-services .Our-services__cards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+    .Our-services .Our-services__cards .Our-services__item {
+      width: 300px;
+      height: 253px;
+      border: 2px solid #ffffff; }
+      .Our-services .Our-services__cards .Our-services__item .Our-services__img {
+        margin-top: 33px;
+        margin-left: 50px; }
