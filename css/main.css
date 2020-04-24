@@ -554,4 +554,48 @@ select {
       border: 2px solid #ffffff; }
       .Our-services .Our-services__cards .Our-services__item .Our-services__img {
         margin-top: 33px;
-        margin-left: 50px; }
+        margin-left: 40px; }
+      .Our-services .Our-services__cards .Our-services__item .Our-services__links {
+        text-align: center;
+        padding-top: 36px; }
+        .Our-services .Our-services__cards .Our-services__item .Our-services__links a {
+          color: #292929;
+          font-family: "Gotham Pro";
+          font-size: 15px;
+          font-weight: 500;
+          text-decoration: underline; }
+        .Our-services .Our-services__cards .Our-services__item .Our-services__links a:hover {
+          text-decoration: none; }
+
+.box-cards {
+  position: relative; }
+  .box-cards .box-cards__forms {
+    width: 380px;
+    height: 360px;
+    background-color: #000;
+    color: #fff;
+    position: absolute;
+    top: 80px;
+    left: 1050px;
+    padding-top: 60px;
+    padding-left: 61px; }
+    .box-cards .box-cards__forms .box-cards__title h2 {
+      font-family: "Gotham Pro", sans-serif;
+      font-size: 20px;
+      font-weight: 700;
+      text-transform: uppercase; }
+    .box-cards .box-cards__forms .box-cards__telefone span {
+      font-family: "Gotham Pro", sans-serif;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 30px;
+      text-transform: uppercase; }
+    .box-cards .box-cards__forms .box-cards__location span {
+      font-family: "Gotham Pro", sans-serif;
+      font-size: 14px;
+      font-weight: 400; }
+    .box-cards .box-cards__forms .box-cards__email span {
+      font-family: "Gotham Pro", sans-serif;
+      font-size: 14px;
+      font-weight: 400;
+      text-decoration: underline; }
