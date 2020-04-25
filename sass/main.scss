@@ -739,4 +739,102 @@ select {
   }
 }
 
-// доделать стилизацию.
+.footer {
+  min-height: 196px;
+  background-color: #292929;
+  margin: 0;
+
+  .footer-logo {
+    padding-top: 45px;
+
+    .footer-logo__img {
+      display: flex;
+
+      .footer-text_logo {
+        padding-top: 5px;
+        padding-left: 13px;
+        font-family: "Gotham Pro", sans-serif;
+        font-size: 19px;
+        font-weight: 700;
+        line-height: 20.9px;
+        text-transform: uppercase;
+        color: #ffffff;
+        letter-spacing: 2px;
+
+      }
+
+      .footer-text__text {
+        padding-left: 13px;
+        font-family: "Gotham Pro", sans-serif;
+        font-size: 10px;
+        font-weight: 300;
+        line-height: 20.9px;
+        color: #ffffff;
+      }
+
+      .footer__name {
+        padding-left: 546px;
+
+        .footer__phone {
+          font-family: "Gotham Pro", sans-serif;
+          font-size: 18px;
+          font-weight: 700;
+          line-height: 22px;
+          text-transform: uppercase;
+          color: #ffffff;
+        }
+
+        .footer__phone_text {
+          font-family: "Gotham Pro", sans-serif;
+          font-size: 11px;
+          font-weight: 400;
+          line-height: 22px;
+          color: #ffffff;
+        }
+
+
+      }
+    }
+
+    .footer__bottom {
+      display: flex;
+      justify-content: space-between;
+
+      .footer__links {
+        padding-top: 30px;
+        padding-right: 15px;
+
+        a {
+          font-family: "Gotham Pro",
+            sans-serif;
+          font-size: 12px;
+          font-weight: 500;
+          line-height: 22px;
+          color: #ffffff;
+          text-decoration: none;
+          padding: 15px 23px;
+          border: 2px solid #fff;
+          transition-property: background-color;
+          transition-duration: .8s;
+        }
+
+        a:hover {
+          color: #000;
+          background-color: #fff;
+        }
+      }
+
+      .footer-text__copyricht {
+        padding-top: 55px;
+        font-family: "Gotham Pro", sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 22px;
+        color: #ffffff;
+      }
+    }
+  }
+
+
+
+}

@@ -599,3 +599,81 @@ select {
       font-size: 14px;
       font-weight: 400;
       text-decoration: underline; }
+
+.footer {
+  min-height: 196px;
+  background-color: #292929;
+  margin: 0; }
+  .footer .footer-logo {
+    padding-top: 45px; }
+    .footer .footer-logo .footer-logo__img {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+      .footer .footer-logo .footer-logo__img .footer-text_logo {
+        padding-top: 5px;
+        padding-left: 13px;
+        font-family: "Gotham Pro", sans-serif;
+        font-size: 19px;
+        font-weight: 700;
+        line-height: 20.9px;
+        text-transform: uppercase;
+        color: #ffffff;
+        letter-spacing: 2px; }
+      .footer .footer-logo .footer-logo__img .footer-text__text {
+        padding-left: 13px;
+        font-family: "Gotham Pro", sans-serif;
+        font-size: 10px;
+        font-weight: 300;
+        line-height: 20.9px;
+        color: #ffffff; }
+      .footer .footer-logo .footer-logo__img .footer__name {
+        padding-left: 546px; }
+        .footer .footer-logo .footer-logo__img .footer__name .footer__phone {
+          font-family: "Gotham Pro", sans-serif;
+          font-size: 18px;
+          font-weight: 700;
+          line-height: 22px;
+          text-transform: uppercase;
+          color: #ffffff; }
+        .footer .footer-logo .footer-logo__img .footer__name .footer__phone_text {
+          font-family: "Gotham Pro", sans-serif;
+          font-size: 11px;
+          font-weight: 400;
+          line-height: 22px;
+          color: #ffffff; }
+    .footer .footer-logo .footer__bottom {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between; }
+      .footer .footer-logo .footer__bottom .footer__links {
+        padding-top: 30px;
+        padding-right: 15px; }
+        .footer .footer-logo .footer__bottom .footer__links a {
+          font-family: "Gotham Pro", sans-serif;
+          font-size: 12px;
+          font-weight: 500;
+          line-height: 22px;
+          color: #ffffff;
+          text-decoration: none;
+          padding: 15px 23px;
+          border: 2px solid #fff;
+          -webkit-transition-property: background-color;
+          -o-transition-property: background-color;
+          transition-property: background-color;
+          -webkit-transition-duration: .8s;
+          -o-transition-duration: .8s;
+          transition-duration: .8s; }
+        .footer .footer-logo .footer__bottom .footer__links a:hover {
+          color: #000;
+          background-color: #fff; }
+      .footer .footer-logo .footer__bottom .footer-text__copyricht {
+        padding-top: 55px;
+        font-family: "Gotham Pro", sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 22px;
+        color: #ffffff; }
